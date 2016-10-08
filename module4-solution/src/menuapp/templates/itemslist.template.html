@@ -1,0 +1,10 @@
+<span> {{ $ctrl.item[0].category }} </span>
+<ul>
+  <li ng-repeat="item in $ctrl.item">
+
+    ({{ item.short_name }}) &emsp; {{ item.name }}  
+     <br>  
+     Description: &emsp; {{ item.description }} 
+     <br></br>
+  </li>
+</ul>
