@@ -4,7 +4,8 @@
 
     ({{ item.short_name }}) &emsp; {{ item.name }}  
      <br>  
-     Description: &emsp; {{ item.description }} 
+
+     <div ng-if="item.description">Description: &emsp; {{ item.description }}</div>
      <br></br>
   </li>
 </ul>
